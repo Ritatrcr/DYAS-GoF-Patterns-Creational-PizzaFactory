@@ -1,5 +1,4 @@
 package edu.unisabana.pizzafactory.model.implementaciones;
-
 import edu.unisabana.pizzafactory.model.interfaces.Horneador;
 import java.util.logging.Level;
 import java.util.logging.Logger;
