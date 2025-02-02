@@ -94,14 +94,14 @@ Las contribuciones son bienvenidas. Para proponer cambios:
 
 ## 🛠️ Interfaces y Modelos
 
-### 🔹 `AmasadorPizza.java` (Interfaz de Amasado)
-📂 Ubicación: `edu.unisabana.pizzafactory.model`
+### 🔹 `Amasador.java` (Interfaz de Amasado)
+📂 Ubicación: `edu.unisabana.pizzafactory.model.interfaces`
 
 - **Método:**  
   - `public void amasar();` → Define la acción de amasar, implementada en cada variante de pizza.
 
-### 🔹 `MoldeadorPizza.java` (Interfaz de Moldeado)
-📂 Ubicación: `edu.unisabana.pizzafactory.model`
+### 🔹 `Moldeador.java` (Interfaz de Moldeado)
+📂 Ubicación: `edu.unisabana.pizzafactory.model.interfaces`
 
 - **Métodos:**  
   - `public void moldearPizzaPequena();`  
@@ -109,8 +109,8 @@ Las contribuciones son bienvenidas. Para proponer cambios:
   - `public void moldearPizzaGrande();`  
   - Define el proceso de moldeado para diferentes tamaños.
 
-### 🔹 `HorneadorPizza.java` (Interfaz de Horneado)
-📂 Ubicación: `edu.unisabana.pizzafactory.model`
+### 🔹 `Horneador.java` (Interfaz de Horneado)
+📂 Ubicación: `edu.unisabana.pizzafactory.model.interfaces`
 
 - **Método:**  
   - `public void hornear();` → Define la acción de horneado, con implementaciones específicas para cada variante.
@@ -141,7 +141,7 @@ Las contribuciones son bienvenidas. Para proponer cambios:
 ## 🏭 Implementaciones de Fábricas y Variantes
 
 ### 🔹 `PizzaFactory.java` (Fábrica Abstracta)
-📂 Ubicación: `edu.unisabana.pizzafactory.model.factory`
+📂 Ubicación: `edu.unisabana.pizzafactory.model.interfaces`
 
 - **Métodos abstractos que deben implementar las fábricas concretas:**  
   ```java
