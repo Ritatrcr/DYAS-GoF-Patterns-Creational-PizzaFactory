@@ -61,6 +61,10 @@ mvn exec:java -Dexec.mainClass="edu.unisabana.pizzafactory.consoleview.Preparado
 │   │   
 ```
 
+## UML
+
+![alt text](image-1.png)
+
 ## Uso
 Para agregar una nueva variante de pizza:
 1. Crear una nueva fábrica que implemente `PizzaFactory`.
